@@ -1,6 +1,7 @@
 ---
 name: knowledge-optimizer
 description: "Use when you need to clean, refactor, or convert raw documentation (HTML, XML, PDF-extracted text, or verbose Markdown) into a high-density, structured Markdown format optimized for AI Agent knowledge bases."
+license: MIT
 ---
 
 # Knowledge Base Optimizer Skill
