@@ -1,7 +1,7 @@
 # Teardown Multiplayer Modding Reference
 
 > **[CONSTRAINTS]**
-> - Requires Teardown experimental multiplayer release
+> - Requires Teardown multiplayer release
 > - Assumes familiarity with single-player modding, the editor, and Lua scripting basics
 > - All MP scripts require `#version 2` at the top; omitting it silently disables the script in MP sessions
 

@@ -1,6 +1,6 @@
 # Teardown Scripting API 2.0.0 — Index
 
-> Lua 5.1 · Experimental · Multiplayer client/server architecture
+> Lua 5.1 · Multiplayer client/server architecture
 
 ## Sections
 

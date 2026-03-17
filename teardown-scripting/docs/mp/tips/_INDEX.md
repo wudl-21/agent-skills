@@ -1,6 +1,6 @@
 # Teardown Multiplayer Tips — Knowledge Base Index
 
-Knowledge base for Teardown **multiplayer modding** (experimental). Covers mod setup, the client/server scripting architecture, game modes, level markup, and the mplib library.
+Knowledge base for Teardown **multiplayer modding**. Covers mod setup, the client/server scripting architecture, game modes, level markup, and the mplib library.
 
 ## Files
 

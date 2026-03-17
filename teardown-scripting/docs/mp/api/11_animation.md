@@ -159,8 +159,8 @@ PlayAnimationLoop(animator, "Walking")
 - **Returns:**
   - `handle` *(number)* — Handle to the instance that can be used with PlayAnimationInstance, zero if clip reached its end
 ```lua
---This will play a single animation "Shooting" with a 80% influence but only on the skeleton starting at bone "Spine"
-PlayAnimation(animator, "Shooting", 0.8, "Spine")
+--This will control the weight and speed of the animation thas was initiated by PlayAnimation
+PlayAnimationInstance(animator, handle, 0.8, 1.0)
 ```
 
 ### [API] StopAnimationInstance(handle, instance)

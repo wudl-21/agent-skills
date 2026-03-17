@@ -13,9 +13,9 @@ variable in or outside the init function.
 - **Returns:**
   - `value` *(number)* — Parameter value
 ```lua
+--Retrieve blinkcount parameter, or set to 5 if omitted
+parameterBlinkCount = GetIntParam("blinkcount", 5)
 function init()
-	--Retrieve blinkcount parameter, or set to 5 if omitted
-	local parameterBlinkCount = GetIntParam("blinkcount", 5)
 	DebugPrint(parameterBlinkCount)
 end
 ```
@@ -27,9 +27,9 @@ end
 - **Returns:**
   - `value` *(number)* — Parameter value
 ```lua
+--Retrieve speed parameter, or set to 10.0 if omitted
+parameterSpeed = GetFloatParam("speed", 10.0)
 function init()
-	--Retrieve speed parameter, or set to 10.0 if omitted
-	local parameterSpeed = GetFloatParam("speed", 10.0)
 	DebugPrint(parameterSpeed)
 end
 ```
@@ -41,9 +41,9 @@ end
 - **Returns:**
   - `value` *(boolean)* — Parameter value
 ```lua
+--Retrieve playsound parameter, or false if omitted
+parameterPlaySound = GetBoolParam("playsound", false)
 function init()
-	--Retrieve playsound parameter, or false if omitted
-	local parameterPlaySound = GetBoolParam("playsound", false)
 	DebugPrint(parameterPlaySound)
 end
 ```
@@ -55,9 +55,9 @@ end
 - **Returns:**
   - `value` *(string)* — Parameter value
 ```lua
+--Retrieve mode parameter, or "idle" if omitted
+parameterMode = GetStringParam("mode", "idle")
 function init()
-	--Retrieve mode parameter, or "idle" if omitted
-	local parameterMode = GetStringParam("mode", "idle")
 	DebugPrint(parameterMode)
 end
 ```
@@ -69,9 +69,9 @@ end
 - **Returns:**
   - `value` *(number)* — Parameter value
 ```lua
+--Retrieve color parameter, or set to 0.39, 0.39, 0.39 if omitted
+color_r, color_g, color_b = GetColorParam("color", 0.39, 0.39, 0.39)
 function init()
-	--Retrieve color parameter, or set to 0.39, 0.39, 0.39 if omitted
-	local color_r, color_g, color_b = GetColorParam("color", 0.39, 0.39, 0.39)
 	DebugPrint(color_r .. " " .. color_g .. " " .. color_b)
 end
 ```

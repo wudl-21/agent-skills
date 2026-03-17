@@ -1,6 +1,6 @@
 # Teardown Scripting API — Overview
 
-> **Version:** 2.0.0 (Experimental)  
+> **Version:** 2.0.0
 > Lua 5.1. Each script runs in its own Lua context.
 
 Teardown uses Lua version 5.1 as scripting language. The Lua 5.1 reference manual can be found here.
